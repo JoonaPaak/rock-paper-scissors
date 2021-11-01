@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    height: 100px;
+    padding: 30px;
+    background-color: #06041f;
+    border-color: darkturquoise;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ced1;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.main {
+   background-color: #06041f;
+   height: 1066px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 150px;
+}
+
+.btn {
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkturquoise;
+    background-color: #06041f;
+    padding: 20px;
+    border-color: darkturquoise;
+    border-radius: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    font-size: 40px;
+    padding: 30px;
+    margin-left: 20px;
+    color: darkturquoise;
+}
+
+.round-winner {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    margin-right: 70px;
+    color: darkturquoise;
+}
+
+.restart {
+    font-size: 30px;
+    margin-left: 1150px;
+    margin-top: 60px;
+    color: darkturquoise;
+    background-color: #06041f;
+    padding: 20px;
+    border-color: darkturquoise;
+    border-radius: 10px;
+}
+
