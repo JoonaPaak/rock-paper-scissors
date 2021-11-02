@@ -57,8 +57,10 @@ buttons.forEach((button) => {
   });
 });
 
-const restart = document.querySelector("restart");
-  restart.addEventListener("click", () => {
-    console.log(restart);
-  });
-
+const restart = document.getElementById("restart");
+  restart.onclick = function() {
+    playerScore = 0;
+    computerScore = 0;
+    updateScore();
+    roundWinner.innerHTML = "Score";
+}
